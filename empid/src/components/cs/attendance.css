@@ -1,0 +1,42 @@
+.attendance {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .attendance h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .attendance ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .attendance li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .attendance li span {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .attendance li span:first-child {
+    color: #007bff; /* Blue color for Date */
+  }
+  
+  .attendance li span:last-child {
+    color: #28a745; /* Green color for Status */
+  }
+  
